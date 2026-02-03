@@ -1,0 +1,262 @@
+{
+  "site": {
+    "name": "Azure Trails Tourism",
+    "tagline": "Tailored itineraries and signature tours across coastlines, deserts, and culture.",
+    "cta": "Discover itineraries",
+    "navigation": [
+      { "label": "Home", "path": "/" },
+      { "label": "Itineraries", "path": "/itineraries" },
+      { "label": "About", "path": "/about" },
+      { "label": "Contact", "path": "/contact" }
+    ],
+    "hero": {
+      "title": "Curated journeys for modern explorers",
+      "subtitle": "Premium multi-day packages designed by destination experts, complete with local hosts, luxury stays, and unforgettable experiences.",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+      "stats": [
+        { "label": "Signature itineraries", "value": "18+" },
+        { "label": "Local partners", "value": "120" },
+        { "label": "Guest satisfaction", "value": "4.9/5" }
+      ]
+    },
+    "highlights": [
+      {
+        "title": "Private hosts",
+        "description": "Connect with hand-picked local storytellers and cultural ambassadors."
+      },
+      {
+        "title": "Luxury stays",
+        "description": "Boutique hotels, desert resorts, and oceanfront villas."
+      },
+      {
+        "title": "Seamless planning",
+        "description": "Every detail, from transfers to dining, arranged for you."
+      }
+    ]
+  },
+  "about": {
+    "title": "A tourism studio built around storytelling",
+    "story": "Azure Trails Tourism creates intentional itineraries that blend heritage, adventure, and slow travel. We partner with artisans, local communities, and hospitality leaders to craft tours that feel personal, effortless, and deeply memorable.",
+    "values": [
+      {
+        "title": "Cultural immersion",
+        "description": "We elevate authentic experiences and respect local traditions."
+      },
+      {
+        "title": "Sustainable travel",
+        "description": "Every itinerary prioritizes low-impact travel and community benefit."
+      },
+      {
+        "title": "Exceptional care",
+        "description": "Dedicated travel designers stay with you from booking to return."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Design your next journey",
+    "subtitle": "Tell us about your travel style and we will tailor a proposal within 24 hours.",
+    "offices": [
+      {
+        "city": "Doha",
+        "address": "Museums District, West Bay",
+        "phone": "+974 555 0101",
+        "email": "doha@azuretrails.com"
+      },
+      {
+        "city": "Dubai",
+        "address": "Creek Harbour Promenade",
+        "phone": "+971 555 0110",
+        "email": "dubai@azuretrails.com"
+      }
+    ]
+  },
+  "itineraries": [
+    {
+      "id": "azure-coast-escape",
+      "title": "Azure Coast Escape",
+      "location": "Seaside Riviera",
+      "duration": "5 Days / 4 Nights",
+      "price": "From $1,950",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=80",
+      "category": "Beach",
+      "tags": ["Luxury", "Relaxation", "Ocean"],
+      "featured": true,
+      "overview": "Slow down with beachfront stays, private yacht cruises, and sunset dining along the coast.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Arrival & coastal welcome",
+          "description": "VIP airport meet-and-greet and transfer to a cliffside resort with welcome refreshments.",
+          "highlights": ["Luxury check-in", "Oceanfront suite", "Sunset aperitif"]
+        },
+        {
+          "day": 2,
+          "title": "Private yacht experience",
+          "description": "Sail the turquoise bays with a private chef and snorkeling at hidden lagoons.",
+          "highlights": ["Private yacht", "Snorkeling", "Seafood tasting"]
+        },
+        {
+          "day": 3,
+          "title": "Wellness & spa",
+          "description": "Morning yoga, spa rituals, and a culinary masterclass with local chefs.",
+          "highlights": ["Wellness session", "Luxury spa", "Cooking class"]
+        },
+        {
+          "day": 4,
+          "title": "Coastal villages",
+          "description": "Guided exploration of historic fishing villages and artisan markets.",
+          "highlights": ["Village tour", "Artisan market", "Cultural storytelling"]
+        },
+        {
+          "day": 5,
+          "title": "Departure",
+          "description": "Private transfer and curated farewell gifts.",
+          "highlights": ["Personal concierge", "Departure lounge"]
+        }
+      ]
+    },
+    {
+      "id": "desert-star-expedition",
+      "title": "Desert Star Expedition",
+      "location": "Golden Dunes",
+      "duration": "4 Days / 3 Nights",
+      "price": "From $1,480",
+      "image": "https://images.unsplash.com/photo-1470053053199-5e6b8d9f3b2f?auto=format&fit=crop&w=1400&q=80",
+      "category": "Adventure",
+      "tags": ["Desert", "Adventure", "Stargazing"],
+      "featured": true,
+      "overview": "A luxe desert retreat featuring dune adventures, Bedouin heritage, and stargazing domes.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Desert arrival",
+          "description": "Transfer to a luxury tented camp with traditional welcome ceremonies.",
+          "highlights": ["Tented camp", "Sunset dunes", "Welcome feast"]
+        },
+        {
+          "day": 2,
+          "title": "Dune adventure",
+          "description": "Private 4x4 safari, falconry showcase, and sandboard session.",
+          "highlights": ["4x4 safari", "Falconry", "Sandboarding"]
+        },
+        {
+          "day": 3,
+          "title": "Starry night",
+          "description": "Astronomy guide, storytelling, and gourmet dinner under the stars.",
+          "highlights": ["Astronomy talk", "Campfire stories", "Gourmet dining"]
+        },
+        {
+          "day": 4,
+          "title": "Departure",
+          "description": "Sunrise camel ride and premium transfers back to the city.",
+          "highlights": ["Camel ride", "Farewell breakfast"]
+        }
+      ]
+    },
+    {
+      "id": "heritage-heritage-trail",
+      "title": "Heritage Heritage Trail",
+      "location": "Old Souk District",
+      "duration": "3 Days / 2 Nights",
+      "price": "From $1,050",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1400&q=80",
+      "category": "Culture",
+      "tags": ["Culture", "Cuisine", "Architecture"],
+      "featured": false,
+      "overview": "Dive into heritage districts with guided museum visits and curated culinary tours.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Historic quarters",
+          "description": "Private walking tour through heritage quarters and artisan workshops.",
+          "highlights": ["Heritage walk", "Artisan studio", "Tea ceremony"]
+        },
+        {
+          "day": 2,
+          "title": "Cuisine journey",
+          "description": "Chef-led market tour, spice tasting, and cultural dinner experience.",
+          "highlights": ["Market tour", "Spice tasting", "Cultural dinner"]
+        },
+        {
+          "day": 3,
+          "title": "Museum immersion",
+          "description": "Private museum access and curated departure concierge.",
+          "highlights": ["Museum access", "Farewell concierge"]
+        }
+      ]
+    },
+    {
+      "id": "island-hopping-luxe",
+      "title": "Island Hopping Luxe",
+      "location": "Emerald Archipelago",
+      "duration": "6 Days / 5 Nights",
+      "price": "From $2,650",
+      "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1400&q=80",
+      "category": "Cruise",
+      "tags": ["Islands", "Sailing", "Adventure"],
+      "featured": true,
+      "overview": "Secluded beaches, diving excursions, and villa living across pristine islands.",
+      "days": [
+        {
+          "day": 1,
+          "title": "Welcome aboard",
+          "description": "Settle into a private villa with a sunset sail and onboard dining.",
+          "highlights": ["Villa check-in", "Sunset sail", "Welcome dinner"]
+        },
+        {
+          "day": 2,
+          "title": "Reef discovery",
+          "description": "Dive or snorkel the reef with expert guides and a beach picnic.",
+          "highlights": ["Reef dive", "Beach picnic", "Marine biologist"]
+        },
+        {
+          "day": 3,
+          "title": "Island wellness",
+          "description": "Spa rituals, paddleboarding, and a private beachfront cabana.",
+          "highlights": ["Spa ritual", "Paddleboarding", "Cabana lounge"]
+        },
+        {
+          "day": 4,
+          "title": "Cultural shore",
+          "description": "Explore island villages, artisans, and cultural performances.",
+          "highlights": ["Village tour", "Cultural performance", "Artisan visit"]
+        },
+        {
+          "day": 5,
+          "title": "Culinary coast",
+          "description": "Chef-hosted tasting menu with ocean-view dining.",
+          "highlights": ["Tasting menu", "Private chef", "Ocean-view dining"]
+        },
+        {
+          "day": 6,
+          "title": "Departure",
+          "description": "Luxury transfers and travel concierge support.",
+          "highlights": ["Luxury transfer", "Concierge support"]
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "company": {
+      "name": "Azure Trails Tourism",
+      "description": "Destination designers crafting premium itineraries across the Gulf and beyond.",
+      "address": "Level 12, Marina Skyline Tower, Doha",
+      "phone": "+974 555 0188",
+      "email": "hello@azuretrails.com"
+    },
+    "cards": [
+      {
+        "title": "Travel designers",
+        "detail": "Dedicated consultants available 7 days a week."
+      },
+      {
+        "title": "Trusted partners",
+        "detail": "120+ verified hotels and local hosts."
+      },
+      {
+        "title": "Sustainable impact",
+        "detail": "Every booking supports community initiatives."
+      }
+    ]
+  }
+}
